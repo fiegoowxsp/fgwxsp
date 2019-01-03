@@ -55,7 +55,7 @@ Page({
   {
     wx.request({
       url: 'http://localhost:8080/designer/getStringTest.htm',
-      data: "id=123&pass=321",
+      data: {id:'123',pass:'321'},
       method: 'POST',
       success: function (res) {
         console.log(res.data);
