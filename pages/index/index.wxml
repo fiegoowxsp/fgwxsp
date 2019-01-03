@@ -8,7 +8,7 @@
     </block>
   </view>
   
-  <view>守护神</view>
+  <view>守护神123</view>
   <view>
    用户:<input name="name" id="name_id" /><br/>
    密码：<input name="pass" id='pass_'></input><br/>
